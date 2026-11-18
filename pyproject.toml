@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "holdout"
+version = "0.1.0"
+description = "Inside-out missing-guard finder for Python codebases"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+holdout = "holdout.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/holdout"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
