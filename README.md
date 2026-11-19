@@ -94,3 +94,7 @@ Results land in `docs/gate-results.md`. [VERDICT.md](VERDICT.md) has real-target
 - [guard-archaeology](https://github.com/beardthelion/guard-archaeology): finds guards a project added and later lost, using git history instead of consensus
 - [path-guard-audit](https://github.com/beardthelion/path-guard-audit) and [ssrf-guard-audit](https://github.com/beardthelion/ssrf-guard-audit): class-specific guard-completeness audits
 - [autocatalytic-harness](https://github.com/beardthelion/autocatalytic-harness): the audit harness that writes the `scope-boundary.md` file holdout reads
+
+## License
+
+MIT. See [LICENSE](LICENSE).
